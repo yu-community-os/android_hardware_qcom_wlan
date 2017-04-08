@@ -1,3 +1,4 @@
+ifeq (msm8994,$(QCOM_HARDWARE_VARIANT))
 #
 # Copyright (C) 2008 The Android Open Source Project
 #
@@ -31,3 +32,4 @@ ifeq ($(strip $(WPA_SUPPLICANT_VERSION)),VER_0_8_X)
   include external/wpa_supplicant_8/wpa_supplicant/wpa_supplicant_conf.mk
 endif
 #######################
+endif
