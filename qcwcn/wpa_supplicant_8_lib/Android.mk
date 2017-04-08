@@ -1,3 +1,4 @@
+ifeq (msm8937,$(QCOM_HARDWARE_VARIANT))
 #
 # Copyright (C) 2008 The Android Open Source Project
 #
@@ -69,4 +70,5 @@ include $(BUILD_STATIC_LIBRARY)
 
 ########################
 
+endif
 endif
